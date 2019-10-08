@@ -8,7 +8,6 @@ class GuessingGame {
     setRange(minDigit, maxDigit) {
         this.min = minDigit;
         this.max = maxDigit;
-        console.log(this.min, this.max);
     }
 
     guess() {
